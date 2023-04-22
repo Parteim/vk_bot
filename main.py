@@ -40,7 +40,7 @@ def get_photo_url(items):
 def get_post(domain, count=100):
     """ This function get response from the wall group that you give in the function """
     url = 'https://api.vk.com/method/wall.get'
-    access_token = '2949bad42949bad42949bad4122924d73c229492949bad474ec05c908e127c920034d67'
+    access_token = ''
     version = '5.84'
     offset = 0
     items = []
